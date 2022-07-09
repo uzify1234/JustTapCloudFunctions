@@ -3,15 +3,7 @@ var vCardsJS = require('vcards-js');
 const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
 
-var config = {
-    apiKey: "AIzaSyBW4EQtK0UfiqcSKu3ej_AHVjoVm5K3qjg",
-    authDomain: "nfcapp-5495e.firebaseapp.com",
-    projectId: "nfcapp-5495e",
-    storageBucket: "nfcapp-5495e.appspot.com",
-    messagingSenderId: "44712465681",
-    appId: "1:44712465681:web:0e87729fefa70a6965a8b0",
-    measurementId: "G-PWTN5MMEN3"
-};
+
 admin.initializeApp(config);
 const firestore = admin.storage();
 
